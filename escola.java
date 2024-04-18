@@ -35,6 +35,10 @@ public class escola {
         this.cursos.add(cursos);
         curso ads = new curso();
     }
-
+    public void removerCurso(curso cursos) {
+        this.cursos.remove(cursos);
     }
+
+
+}
 
