@@ -6,6 +6,11 @@ public class curso {
     private String descricao;
     private List<aluno> alunos = new ArrayList<>();
 
+    public curso(String nome, String descricao) {
+        this.nome = nome;
+        this.descricao = descricao;
+    }
+
     public String getNome() {
         return nome;
     }
