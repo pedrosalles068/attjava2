@@ -31,14 +31,13 @@ public class escola {
         this.diretor = diretor;
     }
 
-    public void adicionarCurso(curso cursos) {
-        this.cursos.add(cursos);
-        curso ads = new curso();
+    public void adicionarCurso(String nome, String descricao) {
+        curso curso  = new curso(nome,descricao);
+        this.cursos.add(curso);
     }
     public void removerCurso(curso cursos) {
         this.cursos.remove(cursos);
     }
-
 
 }
 
