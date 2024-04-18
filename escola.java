@@ -35,4 +35,7 @@ public class escola {
         this.cursos.add(cursos);
         curso ads = new curso();
     }
+    public List<curso> getcursos() {
+        return this.cursos;
+    }
 }
