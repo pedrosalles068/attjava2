@@ -31,11 +31,10 @@ public class escola {
         this.diretor = diretor;
     }
 
-    public void listarCurso(curso cursos) {
+    public void adicionarCurso(curso cursos) {
         this.cursos.add(cursos);
         curso ads = new curso();
     }
-    public List<curso> getcursos() {
-        return this.cursos;
+
     }
-}
+
