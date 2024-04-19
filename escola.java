@@ -35,6 +35,9 @@ public class escola {
         curso curso  = new curso(nome,descricao);
         this.cursos.add(curso);
     }
+    public List<curso> listarCurso(){
+        return this.cursos;
+    }
     public void removerCurso(curso cursos) {
         this.cursos.remove(cursos);
     }
